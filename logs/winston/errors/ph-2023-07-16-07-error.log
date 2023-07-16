@@ -1,0 +1,18 @@
+{ level: 'error', label: 'PH', timestamp: '2023-07-16T01:48:44.956Z' }
+{
+  level: 'error',
+  message: 'globalErrorHandler x is not defined',
+  stack: 'ReferenceError: x is not defined\n' +
+    '    at E:\\Level-2.0\\Class\\university-management\\src\\app.ts:23:15\n' +
+    '    at Layer.handle [as handle_request] (E:\\Level-2.0\\Class\\university-management\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (E:\\Level-2.0\\Class\\university-management\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (E:\\Level-2.0\\Class\\university-management\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (E:\\Level-2.0\\Class\\university-management\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at E:\\Level-2.0\\Class\\university-management\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (E:\\Level-2.0\\Class\\university-management\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (E:\\Level-2.0\\Class\\university-management\\node_modules\\express\\lib\\router\\index.js:280:10)\n' +
+    '    at urlencodedParser (E:\\Level-2.0\\Class\\university-management\\node_modules\\body-parser\\lib\\types\\urlencoded.js:91:7)\n' +
+    '    at Layer.handle [as handle_request] (E:\\Level-2.0\\Class\\university-management\\node_modules\\express\\lib\\router\\layer.js:95:5)',
+  label: 'PH',
+  timestamp: '2023-07-16T01:54:26.248Z'
+}
