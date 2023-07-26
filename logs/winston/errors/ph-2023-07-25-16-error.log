@@ -18,10 +18,10 @@
     errorEmitted: false,
     emitClose: true,
     autoDestroy: true,
-    destroyed: true,
+    destroyed: false,
     errored: null,
-    closed: true,
-    closeEmitted: true,
+    closed: false,
+    closeEmitted: false,
     defaultEncoding: 'utf8',
     awaitDrainWriters: null,
     multiAwaitDrain: false,
@@ -318,12 +318,12 @@
                             params: undefined,
                             path: undefined,
                             keys: [],
-                            regexp: /^\/create-user\/?$/i {
+                            regexp: /^\/create-student\/?$/i {
                               fast_star: false,
                               fast_slash: false
                             },
                             route: Route {
-                              path: '/create-user',
+                              path: '/create-student',
                               stack: [
                                 Layer {
                                   handle: [Function (anonymous)],
@@ -356,8 +356,8 @@
                         ]
                       },
                       name: 'router',
-                      params: undefined,
-                      path: undefined,
+                      params: {},
+                      path: '/users',
                       keys: [],
                       regexp: /^\/users\/?(?=\/|$)/i {
                         fast_star: false,
@@ -583,8 +583,8 @@
                           Layer {
                             handle: [Function: bound dispatch],
                             name: 'bound dispatch',
-                            params: {},
-                            path: '/create-faculty',
+                            params: undefined,
+                            path: undefined,
                             keys: [],
                             regexp: /^\/create-faculty\/?$/i {
                               fast_star: false,
@@ -831,8 +831,8 @@
                           Layer {
                             handle: [Function: bound dispatch],
                             name: 'bound dispatch',
-                            params: { id: 'create-deparment' },
-                            path: '/create-deparment',
+                            params: undefined,
+                            path: undefined,
                             keys: [
                               {
                                 name: 'id',
@@ -866,8 +866,8 @@
                           Layer {
                             handle: [Function: bound dispatch],
                             name: 'bound dispatch',
-                            params: { id: 'create-deparment' },
-                            path: '/create-deparment',
+                            params: undefined,
+                            path: undefined,
                             keys: [
                               {
                                 name: 'id',
@@ -913,8 +913,8 @@
                           Layer {
                             handle: [Function: bound dispatch],
                             name: 'bound dispatch',
-                            params: { id: 'create-deparment' },
-                            path: '/create-deparment',
+                            params: undefined,
+                            path: undefined,
                             keys: [
                               {
                                 name: 'id',
@@ -977,8 +977,8 @@
                         ]
                       },
                       name: 'router',
-                      params: {},
-                      path: '/academic-departments',
+                      params: undefined,
+                      path: undefined,
                       keys: [],
                       regexp: /^\/academic-departments\/?(?=\/|$)/i {
                         fast_star: false,
@@ -990,7 +990,7 @@
                 },
                 name: 'router',
                 params: {},
-                path: '/api/v1/',
+                path: '/api/v1',
                 keys: [],
                 regexp: /^\/api\/v1\/?(?=\/|$)/i {
                   fast_star: false,
@@ -1045,20 +1045,20 @@
       [Symbol(IncomingMessage)]: [Function: IncomingMessage],
       [Symbol(ServerResponse)]: [Function: ServerResponse],
       [Symbol(kCapture)]: false,
-      [Symbol(async_id_symbol)]: 762,
+      [Symbol(async_id_symbol)]: 767,
       [Symbol(http.server.connections)]: ConnectionsList {},
       [Symbol(http.server.connectionsCheckingInterval)]: Timeout {
         _idleTimeout: 30000,
         _idlePrev: [TimersList],
         _idleNext: [TimersList],
-        _idleStart: 2263775,
+        _idleStart: 401322,
         _onTimeout: [Function: bound checkConnections],
         _timerArgs: undefined,
         _repeat: 30000,
         _destroyed: false,
         [Symbol(refed)]: false,
         [Symbol(kHasPrimitive)]: false,
-        [Symbol(asyncId)]: 761,
+        [Symbol(asyncId)]: 766,
         [Symbol(triggerId)]: 0
       },
       [Symbol(kUniqueHeaders)]: null
@@ -1252,12 +1252,12 @@
                             params: undefined,
                             path: undefined,
                             keys: [],
-                            regexp: /^\/create-user\/?$/i {
+                            regexp: /^\/create-student\/?$/i {
                               fast_star: false,
                               fast_slash: false
                             },
                             route: Route {
-                              path: '/create-user',
+                              path: '/create-student',
                               stack: [
                                 Layer {
                                   handle: [Function (anonymous)],
@@ -1290,8 +1290,8 @@
                         ]
                       },
                       name: 'router',
-                      params: undefined,
-                      path: undefined,
+                      params: {},
+                      path: '/users',
                       keys: [],
                       regexp: /^\/users\/?(?=\/|$)/i {
                         fast_star: false,
@@ -1517,8 +1517,8 @@
                           Layer {
                             handle: [Function: bound dispatch],
                             name: 'bound dispatch',
-                            params: {},
-                            path: '/create-faculty',
+                            params: undefined,
+                            path: undefined,
                             keys: [],
                             regexp: /^\/create-faculty\/?$/i {
                               fast_star: false,
@@ -1765,8 +1765,8 @@
                           Layer {
                             handle: [Function: bound dispatch],
                             name: 'bound dispatch',
-                            params: { id: 'create-deparment' },
-                            path: '/create-deparment',
+                            params: undefined,
+                            path: undefined,
                             keys: [
                               {
                                 name: 'id',
@@ -1800,8 +1800,8 @@
                           Layer {
                             handle: [Function: bound dispatch],
                             name: 'bound dispatch',
-                            params: { id: 'create-deparment' },
-                            path: '/create-deparment',
+                            params: undefined,
+                            path: undefined,
                             keys: [
                               {
                                 name: 'id',
@@ -1847,8 +1847,8 @@
                           Layer {
                             handle: [Function: bound dispatch],
                             name: 'bound dispatch',
-                            params: { id: 'create-deparment' },
-                            path: '/create-deparment',
+                            params: undefined,
+                            path: undefined,
                             keys: [
                               {
                                 name: 'id',
@@ -1911,8 +1911,8 @@
                         ]
                       },
                       name: 'router',
-                      params: {},
-                      path: '/academic-departments',
+                      params: undefined,
+                      path: undefined,
                       keys: [],
                       regexp: /^\/academic-departments\/?(?=\/|$)/i {
                         fast_star: false,
@@ -1924,7 +1924,7 @@
                 },
                 name: 'router',
                 params: {},
-                path: '/api/v1/',
+                path: '/api/v1',
                 keys: [],
                 regexp: /^\/api\/v1\/?(?=\/|$)/i {
                   fast_star: false,
@@ -1979,20 +1979,20 @@
       [Symbol(IncomingMessage)]: [Function: IncomingMessage],
       [Symbol(ServerResponse)]: [Function: ServerResponse],
       [Symbol(kCapture)]: false,
-      [Symbol(async_id_symbol)]: 762,
+      [Symbol(async_id_symbol)]: 767,
       [Symbol(http.server.connections)]: ConnectionsList {},
       [Symbol(http.server.connectionsCheckingInterval)]: Timeout {
         _idleTimeout: 30000,
         _idlePrev: [TimersList],
         _idleNext: [TimersList],
-        _idleStart: 2263775,
+        _idleStart: 401322,
         _onTimeout: [Function: bound checkConnections],
         _timerArgs: undefined,
         _repeat: 30000,
         _destroyed: false,
         [Symbol(refed)]: false,
         [Symbol(kHasPrimitive)]: false,
-        [Symbol(asyncId)]: 761,
+        [Symbol(asyncId)]: 766,
         [Symbol(triggerId)]: 0
       },
       [Symbol(kUniqueHeaders)]: null
@@ -2028,10 +2028,10 @@
           errorEmitted: false,
           emitClose: true,
           autoDestroy: true,
-          destroyed: true,
+          destroyed: false,
           errored: null,
-          closed: true,
-          closeEmitted: true,
+          closed: false,
+          closeEmitted: false,
           defaultEncoding: 'utf8',
           awaitDrainWriters: null,
           multiAwaitDrain: false,
@@ -2057,7 +2057,7 @@
           'Accept',
           '*/*',
           'Postman-Token',
-          '26e89c44-471f-4cc0-994d-afe9594f4d4c',
+          'a13475bd-531d-49c3-bc1d-d6c5d0c12dc0',
           'Host',
           'localhost:5000',
           'Accept-Encoding',
@@ -2065,13 +2065,13 @@
           'Connection',
           'keep-alive',
           'Content-Length',
-          '107'
+          '1185'
         ],
         rawTrailers: [],
         joinDuplicateHeaders: undefined,
         aborted: false,
         upgrade: false,
-        url: '/api/v1//academic-departments/create-deparment',
+        url: '/api/v1/users/create-user',
         method: 'POST',
         statusCode: null,
         statusMessage: null,
@@ -2080,7 +2080,7 @@
         _dumped: false,
         next: [Function: next],
         baseUrl: '',
-        originalUrl: '/api/v1//academic-departments/create-deparment',
+        originalUrl: '/api/v1/users/create-user',
         _parsedUrl: Url {
           protocol: null,
           slashes: null,
@@ -2091,10 +2091,10 @@
           hash: null,
           search: null,
           query: null,
-          pathname: '/api/v1//academic-departments/create-deparment',
-          path: '/api/v1//academic-departments/create-deparment',
-          href: '/api/v1//academic-departments/create-deparment',
-          _raw: '/api/v1//academic-departments/create-deparment'
+          pathname: '/api/v1/users/create-user',
+          path: '/api/v1/users/create-user',
+          href: '/api/v1/users/create-user',
+          _raw: '/api/v1/users/create-user'
         },
         params: {},
         query: {},
@@ -2147,8 +2147,40 @@
           [Symbol(kUniqueHeaders)]: null
         },
         body: {
-          title: 'Department of Computer Science',
-          academicFaculty: '64bcd550aa517e48691345bf'
+          password: '123456',
+          student: {
+            name: {
+              firstName: 'Mezbaul',
+              lastName: 'Abedin',
+              middleName: 'Forhan'
+            },
+            dateOfBirth: '24-04-1998',
+            gender: 'male',
+            bloodGroup: 'O+',
+            email: 'user@gmail.com',
+            contactNo: 'user_4',
+            emergencyContactNo: '01600000000',
+            presentAddress: 'CTG',
+            permanentAddress: 'CTG',
+            academicFaculty: '64bcd550aa517e48691345bf',
+            academicDepartment: '64bce24f48d2f62e257ce74d',
+            academicSemester: '64b4336248801e3733a2345b',
+            guardian: {
+              fatherName: 'MD.ABBU',
+              fatherOccupation: 'Retired Teacher',
+              fatherContactNo: '01600000000',
+              motherName: 'Mrs.Ammu',
+              motherOccupation: 'Housewife',
+              motherContactNo: '01600000000',
+              address: 'CTG'
+            },
+            localGuardian: {
+              name: 'Zahid Hasan',
+              occupation: 'Service Holder',
+              contactNo: '01600000000',
+              address: 'Dhaka'
+            }
+          }
         },
         _body: true,
         length: undefined,
@@ -2157,11 +2189,11 @@
           'content-type': 'application/json',
           'user-agent': 'PostmanRuntime/7.32.3',
           accept: '*/*',
-          'postman-token': '26e89c44-471f-4cc0-994d-afe9594f4d4c',
+          'postman-token': 'a13475bd-531d-49c3-bc1d-d6c5d0c12dc0',
           host: 'localhost:5000',
           'accept-encoding': 'gzip, deflate, br',
           connection: 'keep-alive',
-          'content-length': '107'
+          'content-length': '1185'
         },
         [Symbol(kHeadersCount)]: 16,
         [Symbol(kTrailers)]: null,
@@ -2232,10 +2264,10 @@
           errorEmitted: false,
           emitClose: true,
           autoDestroy: true,
-          destroyed: true,
+          destroyed: false,
           errored: null,
-          closed: true,
-          closeEmitted: true,
+          closed: false,
+          closeEmitted: false,
           defaultEncoding: 'utf8',
           awaitDrainWriters: null,
           multiAwaitDrain: false,
@@ -2261,7 +2293,7 @@
           'Accept',
           '*/*',
           'Postman-Token',
-          '26e89c44-471f-4cc0-994d-afe9594f4d4c',
+          'a13475bd-531d-49c3-bc1d-d6c5d0c12dc0',
           'Host',
           'localhost:5000',
           'Accept-Encoding',
@@ -2269,13 +2301,13 @@
           'Connection',
           'keep-alive',
           'Content-Length',
-          '107'
+          '1185'
         ],
         rawTrailers: [],
         joinDuplicateHeaders: undefined,
         aborted: false,
         upgrade: false,
-        url: '/api/v1//academic-departments/create-deparment',
+        url: '/api/v1/users/create-user',
         method: 'POST',
         statusCode: null,
         statusMessage: null,
@@ -2284,7 +2316,7 @@
         _dumped: false,
         next: [Function: next],
         baseUrl: '',
-        originalUrl: '/api/v1//academic-departments/create-deparment',
+        originalUrl: '/api/v1/users/create-user',
         _parsedUrl: Url {
           protocol: null,
           slashes: null,
@@ -2295,17 +2327,49 @@
           hash: null,
           search: null,
           query: null,
-          pathname: '/api/v1//academic-departments/create-deparment',
-          path: '/api/v1//academic-departments/create-deparment',
-          href: '/api/v1//academic-departments/create-deparment',
-          _raw: '/api/v1//academic-departments/create-deparment'
+          pathname: '/api/v1/users/create-user',
+          path: '/api/v1/users/create-user',
+          href: '/api/v1/users/create-user',
+          _raw: '/api/v1/users/create-user'
         },
         params: {},
         query: {},
         res: [Circular *5],
         body: {
-          title: 'Department of Computer Science',
-          academicFaculty: '64bcd550aa517e48691345bf'
+          password: '123456',
+          student: {
+            name: {
+              firstName: 'Mezbaul',
+              lastName: 'Abedin',
+              middleName: 'Forhan'
+            },
+            dateOfBirth: '24-04-1998',
+            gender: 'male',
+            bloodGroup: 'O+',
+            email: 'user@gmail.com',
+            contactNo: 'user_4',
+            emergencyContactNo: '01600000000',
+            presentAddress: 'CTG',
+            permanentAddress: 'CTG',
+            academicFaculty: '64bcd550aa517e48691345bf',
+            academicDepartment: '64bce24f48d2f62e257ce74d',
+            academicSemester: '64b4336248801e3733a2345b',
+            guardian: {
+              fatherName: 'MD.ABBU',
+              fatherOccupation: 'Retired Teacher',
+              fatherContactNo: '01600000000',
+              motherName: 'Mrs.Ammu',
+              motherOccupation: 'Housewife',
+              motherContactNo: '01600000000',
+              address: 'CTG'
+            },
+            localGuardian: {
+              name: 'Zahid Hasan',
+              occupation: 'Service Holder',
+              contactNo: '01600000000',
+              address: 'Dhaka'
+            }
+          }
         },
         _body: true,
         length: undefined,
@@ -2314,11 +2378,11 @@
           'content-type': 'application/json',
           'user-agent': 'PostmanRuntime/7.32.3',
           accept: '*/*',
-          'postman-token': '26e89c44-471f-4cc0-994d-afe9594f4d4c',
+          'postman-token': 'a13475bd-531d-49c3-bc1d-d6c5d0c12dc0',
           host: 'localhost:5000',
           'accept-encoding': 'gzip, deflate, br',
           connection: 'keep-alive',
-          'content-length': '107'
+          'content-length': '1185'
         },
         [Symbol(kHeadersCount)]: 16,
         [Symbol(kTrailers)]: null,
@@ -2340,7 +2404,7 @@
       [Symbol(errored)]: null,
       [Symbol(kUniqueHeaders)]: null
     },
-    [Symbol(async_id_symbol)]: 2647,
+    [Symbol(async_id_symbol)]: 1247,
     [Symbol(kHandle)]: TCP {
       reading: true,
       onconnection: null,
@@ -2371,7 +2435,7 @@
     'Accept',
     '*/*',
     'Postman-Token',
-    '26e89c44-471f-4cc0-994d-afe9594f4d4c',
+    'a13475bd-531d-49c3-bc1d-d6c5d0c12dc0',
     'Host',
     'localhost:5000',
     'Accept-Encoding',
@@ -2379,13 +2443,13 @@
     'Connection',
     'keep-alive',
     'Content-Length',
-    '107'
+    '1185'
   ],
   rawTrailers: [],
   joinDuplicateHeaders: undefined,
   aborted: false,
   upgrade: false,
-  url: '/api/v1//academic-departments/create-deparment',
+  url: '/api/v1/users/create-user',
   method: 'POST',
   statusCode: null,
   statusMessage: null,
@@ -2673,12 +2737,12 @@
                             params: undefined,
                             path: undefined,
                             keys: [],
-                            regexp: /^\/create-user\/?$/i {
+                            regexp: /^\/create-student\/?$/i {
                               fast_star: false,
                               fast_slash: false
                             },
                             route: Route {
-                              path: '/create-user',
+                              path: '/create-student',
                               stack: [
                                 Layer {
                                   handle: [Function (anonymous)],
@@ -2711,8 +2775,8 @@
                         ]
                       },
                       name: 'router',
-                      params: undefined,
-                      path: undefined,
+                      params: {},
+                      path: '/users',
                       keys: [],
                       regexp: /^\/users\/?(?=\/|$)/i {
                         fast_star: false,
@@ -2938,8 +3002,8 @@
                           Layer {
                             handle: [Function: bound dispatch],
                             name: 'bound dispatch',
-                            params: {},
-                            path: '/create-faculty',
+                            params: undefined,
+                            path: undefined,
                             keys: [],
                             regexp: /^\/create-faculty\/?$/i {
                               fast_star: false,
@@ -3186,8 +3250,8 @@
                           Layer {
                             handle: [Function: bound dispatch],
                             name: 'bound dispatch',
-                            params: { id: 'create-deparment' },
-                            path: '/create-deparment',
+                            params: undefined,
+                            path: undefined,
                             keys: [
                               {
                                 name: 'id',
@@ -3221,8 +3285,8 @@
                           Layer {
                             handle: [Function: bound dispatch],
                             name: 'bound dispatch',
-                            params: { id: 'create-deparment' },
-                            path: '/create-deparment',
+                            params: undefined,
+                            path: undefined,
                             keys: [
                               {
                                 name: 'id',
@@ -3268,8 +3332,8 @@
                           Layer {
                             handle: [Function: bound dispatch],
                             name: 'bound dispatch',
-                            params: { id: 'create-deparment' },
-                            path: '/create-deparment',
+                            params: undefined,
+                            path: undefined,
                             keys: [
                               {
                                 name: 'id',
@@ -3332,8 +3396,8 @@
                         ]
                       },
                       name: 'router',
-                      params: {},
-                      path: '/academic-departments',
+                      params: undefined,
+                      path: undefined,
                       keys: [],
                       regexp: /^\/academic-departments\/?(?=\/|$)/i {
                         fast_star: false,
@@ -3345,7 +3409,7 @@
                 },
                 name: 'router',
                 params: {},
-                path: '/api/v1/',
+                path: '/api/v1',
                 keys: [],
                 regexp: /^\/api\/v1\/?(?=\/|$)/i {
                   fast_star: false,
@@ -3400,20 +3464,20 @@
       [Symbol(IncomingMessage)]: [Function: IncomingMessage],
       [Symbol(ServerResponse)]: [Function: ServerResponse],
       [Symbol(kCapture)]: false,
-      [Symbol(async_id_symbol)]: 762,
+      [Symbol(async_id_symbol)]: 767,
       [Symbol(http.server.connections)]: ConnectionsList {},
       [Symbol(http.server.connectionsCheckingInterval)]: Timeout {
         _idleTimeout: 30000,
         _idlePrev: [TimersList],
         _idleNext: [TimersList],
-        _idleStart: 2263775,
+        _idleStart: 401322,
         _onTimeout: [Function: bound checkConnections],
         _timerArgs: undefined,
         _repeat: 30000,
         _destroyed: false,
         [Symbol(refed)]: false,
         [Symbol(kHasPrimitive)]: false,
-        [Symbol(asyncId)]: 761,
+        [Symbol(asyncId)]: 766,
         [Symbol(triggerId)]: 0
       },
       [Symbol(kUniqueHeaders)]: null
@@ -3607,12 +3671,12 @@
                             params: undefined,
                             path: undefined,
                             keys: [],
-                            regexp: /^\/create-user\/?$/i {
+                            regexp: /^\/create-student\/?$/i {
                               fast_star: false,
                               fast_slash: false
                             },
                             route: Route {
-                              path: '/create-user',
+                              path: '/create-student',
                               stack: [
                                 Layer {
                                   handle: [Function (anonymous)],
@@ -3645,8 +3709,8 @@
                         ]
                       },
                       name: 'router',
-                      params: undefined,
-                      path: undefined,
+                      params: {},
+                      path: '/users',
                       keys: [],
                       regexp: /^\/users\/?(?=\/|$)/i {
                         fast_star: false,
@@ -3872,8 +3936,8 @@
                           Layer {
                             handle: [Function: bound dispatch],
                             name: 'bound dispatch',
-                            params: {},
-                            path: '/create-faculty',
+                            params: undefined,
+                            path: undefined,
                             keys: [],
                             regexp: /^\/create-faculty\/?$/i {
                               fast_star: false,
@@ -4120,8 +4184,8 @@
                           Layer {
                             handle: [Function: bound dispatch],
                             name: 'bound dispatch',
-                            params: { id: 'create-deparment' },
-                            path: '/create-deparment',
+                            params: undefined,
+                            path: undefined,
                             keys: [
                               {
                                 name: 'id',
@@ -4155,8 +4219,8 @@
                           Layer {
                             handle: [Function: bound dispatch],
                             name: 'bound dispatch',
-                            params: { id: 'create-deparment' },
-                            path: '/create-deparment',
+                            params: undefined,
+                            path: undefined,
                             keys: [
                               {
                                 name: 'id',
@@ -4202,8 +4266,8 @@
                           Layer {
                             handle: [Function: bound dispatch],
                             name: 'bound dispatch',
-                            params: { id: 'create-deparment' },
-                            path: '/create-deparment',
+                            params: undefined,
+                            path: undefined,
                             keys: [
                               {
                                 name: 'id',
@@ -4266,8 +4330,8 @@
                         ]
                       },
                       name: 'router',
-                      params: {},
-                      path: '/academic-departments',
+                      params: undefined,
+                      path: undefined,
                       keys: [],
                       regexp: /^\/academic-departments\/?(?=\/|$)/i {
                         fast_star: false,
@@ -4279,7 +4343,7 @@
                 },
                 name: 'router',
                 params: {},
-                path: '/api/v1/',
+                path: '/api/v1',
                 keys: [],
                 regexp: /^\/api\/v1\/?(?=\/|$)/i {
                   fast_star: false,
@@ -4334,20 +4398,20 @@
       [Symbol(IncomingMessage)]: [Function: IncomingMessage],
       [Symbol(ServerResponse)]: [Function: ServerResponse],
       [Symbol(kCapture)]: false,
-      [Symbol(async_id_symbol)]: 762,
+      [Symbol(async_id_symbol)]: 767,
       [Symbol(http.server.connections)]: ConnectionsList {},
       [Symbol(http.server.connectionsCheckingInterval)]: Timeout {
         _idleTimeout: 30000,
         _idlePrev: [TimersList],
         _idleNext: [TimersList],
-        _idleStart: 2263775,
+        _idleStart: 401322,
         _onTimeout: [Function: bound checkConnections],
         _timerArgs: undefined,
         _repeat: 30000,
         _destroyed: false,
         [Symbol(refed)]: false,
         [Symbol(kHasPrimitive)]: false,
-        [Symbol(asyncId)]: 761,
+        [Symbol(asyncId)]: 766,
         [Symbol(triggerId)]: 0
       },
       [Symbol(kUniqueHeaders)]: null
@@ -4383,10 +4447,10 @@
           errorEmitted: false,
           emitClose: true,
           autoDestroy: true,
-          destroyed: true,
+          destroyed: false,
           errored: null,
-          closed: true,
-          closeEmitted: true,
+          closed: false,
+          closeEmitted: false,
           defaultEncoding: 'utf8',
           awaitDrainWriters: null,
           multiAwaitDrain: false,
@@ -4412,7 +4476,7 @@
           'Accept',
           '*/*',
           'Postman-Token',
-          '26e89c44-471f-4cc0-994d-afe9594f4d4c',
+          'a13475bd-531d-49c3-bc1d-d6c5d0c12dc0',
           'Host',
           'localhost:5000',
           'Accept-Encoding',
@@ -4420,13 +4484,13 @@
           'Connection',
           'keep-alive',
           'Content-Length',
-          '107'
+          '1185'
         ],
         rawTrailers: [],
         joinDuplicateHeaders: undefined,
         aborted: false,
         upgrade: false,
-        url: '/api/v1//academic-departments/create-deparment',
+        url: '/api/v1/users/create-user',
         method: 'POST',
         statusCode: null,
         statusMessage: null,
@@ -4435,7 +4499,7 @@
         _dumped: false,
         next: [Function: next],
         baseUrl: '',
-        originalUrl: '/api/v1//academic-departments/create-deparment',
+        originalUrl: '/api/v1/users/create-user',
         _parsedUrl: Url {
           protocol: null,
           slashes: null,
@@ -4446,10 +4510,10 @@
           hash: null,
           search: null,
           query: null,
-          pathname: '/api/v1//academic-departments/create-deparment',
-          path: '/api/v1//academic-departments/create-deparment',
-          href: '/api/v1//academic-departments/create-deparment',
-          _raw: '/api/v1//academic-departments/create-deparment'
+          pathname: '/api/v1/users/create-user',
+          path: '/api/v1/users/create-user',
+          href: '/api/v1/users/create-user',
+          _raw: '/api/v1/users/create-user'
         },
         params: {},
         query: {},
@@ -4502,8 +4566,40 @@
           [Symbol(kUniqueHeaders)]: null
         },
         body: {
-          title: 'Department of Computer Science',
-          academicFaculty: '64bcd550aa517e48691345bf'
+          password: '123456',
+          student: {
+            name: {
+              firstName: 'Mezbaul',
+              lastName: 'Abedin',
+              middleName: 'Forhan'
+            },
+            dateOfBirth: '24-04-1998',
+            gender: 'male',
+            bloodGroup: 'O+',
+            email: 'user@gmail.com',
+            contactNo: 'user_4',
+            emergencyContactNo: '01600000000',
+            presentAddress: 'CTG',
+            permanentAddress: 'CTG',
+            academicFaculty: '64bcd550aa517e48691345bf',
+            academicDepartment: '64bce24f48d2f62e257ce74d',
+            academicSemester: '64b4336248801e3733a2345b',
+            guardian: {
+              fatherName: 'MD.ABBU',
+              fatherOccupation: 'Retired Teacher',
+              fatherContactNo: '01600000000',
+              motherName: 'Mrs.Ammu',
+              motherOccupation: 'Housewife',
+              motherContactNo: '01600000000',
+              address: 'CTG'
+            },
+            localGuardian: {
+              name: 'Zahid Hasan',
+              occupation: 'Service Holder',
+              contactNo: '01600000000',
+              address: 'Dhaka'
+            }
+          }
         },
         _body: true,
         length: undefined,
@@ -4512,11 +4608,11 @@
           'content-type': 'application/json',
           'user-agent': 'PostmanRuntime/7.32.3',
           accept: '*/*',
-          'postman-token': '26e89c44-471f-4cc0-994d-afe9594f4d4c',
+          'postman-token': 'a13475bd-531d-49c3-bc1d-d6c5d0c12dc0',
           host: 'localhost:5000',
           'accept-encoding': 'gzip, deflate, br',
           connection: 'keep-alive',
-          'content-length': '107'
+          'content-length': '1185'
         },
         [Symbol(kHeadersCount)]: 16,
         [Symbol(kTrailers)]: null,
@@ -4587,10 +4683,10 @@
           errorEmitted: false,
           emitClose: true,
           autoDestroy: true,
-          destroyed: true,
+          destroyed: false,
           errored: null,
-          closed: true,
-          closeEmitted: true,
+          closed: false,
+          closeEmitted: false,
           defaultEncoding: 'utf8',
           awaitDrainWriters: null,
           multiAwaitDrain: false,
@@ -4616,7 +4712,7 @@
           'Accept',
           '*/*',
           'Postman-Token',
-          '26e89c44-471f-4cc0-994d-afe9594f4d4c',
+          'a13475bd-531d-49c3-bc1d-d6c5d0c12dc0',
           'Host',
           'localhost:5000',
           'Accept-Encoding',
@@ -4624,13 +4720,13 @@
           'Connection',
           'keep-alive',
           'Content-Length',
-          '107'
+          '1185'
         ],
         rawTrailers: [],
         joinDuplicateHeaders: undefined,
         aborted: false,
         upgrade: false,
-        url: '/api/v1//academic-departments/create-deparment',
+        url: '/api/v1/users/create-user',
         method: 'POST',
         statusCode: null,
         statusMessage: null,
@@ -4639,7 +4735,7 @@
         _dumped: false,
         next: [Function: next],
         baseUrl: '',
-        originalUrl: '/api/v1//academic-departments/create-deparment',
+        originalUrl: '/api/v1/users/create-user',
         _parsedUrl: Url {
           protocol: null,
           slashes: null,
@@ -4650,17 +4746,49 @@
           hash: null,
           search: null,
           query: null,
-          pathname: '/api/v1//academic-departments/create-deparment',
-          path: '/api/v1//academic-departments/create-deparment',
-          href: '/api/v1//academic-departments/create-deparment',
-          _raw: '/api/v1//academic-departments/create-deparment'
+          pathname: '/api/v1/users/create-user',
+          path: '/api/v1/users/create-user',
+          href: '/api/v1/users/create-user',
+          _raw: '/api/v1/users/create-user'
         },
         params: {},
         query: {},
         res: [Circular *5],
         body: {
-          title: 'Department of Computer Science',
-          academicFaculty: '64bcd550aa517e48691345bf'
+          password: '123456',
+          student: {
+            name: {
+              firstName: 'Mezbaul',
+              lastName: 'Abedin',
+              middleName: 'Forhan'
+            },
+            dateOfBirth: '24-04-1998',
+            gender: 'male',
+            bloodGroup: 'O+',
+            email: 'user@gmail.com',
+            contactNo: 'user_4',
+            emergencyContactNo: '01600000000',
+            presentAddress: 'CTG',
+            permanentAddress: 'CTG',
+            academicFaculty: '64bcd550aa517e48691345bf',
+            academicDepartment: '64bce24f48d2f62e257ce74d',
+            academicSemester: '64b4336248801e3733a2345b',
+            guardian: {
+              fatherName: 'MD.ABBU',
+              fatherOccupation: 'Retired Teacher',
+              fatherContactNo: '01600000000',
+              motherName: 'Mrs.Ammu',
+              motherOccupation: 'Housewife',
+              motherContactNo: '01600000000',
+              address: 'CTG'
+            },
+            localGuardian: {
+              name: 'Zahid Hasan',
+              occupation: 'Service Holder',
+              contactNo: '01600000000',
+              address: 'Dhaka'
+            }
+          }
         },
         _body: true,
         length: undefined,
@@ -4669,11 +4797,11 @@
           'content-type': 'application/json',
           'user-agent': 'PostmanRuntime/7.32.3',
           accept: '*/*',
-          'postman-token': '26e89c44-471f-4cc0-994d-afe9594f4d4c',
+          'postman-token': 'a13475bd-531d-49c3-bc1d-d6c5d0c12dc0',
           host: 'localhost:5000',
           'accept-encoding': 'gzip, deflate, br',
           connection: 'keep-alive',
-          'content-length': '107'
+          'content-length': '1185'
         },
         [Symbol(kHeadersCount)]: 16,
         [Symbol(kTrailers)]: null,
@@ -4695,7 +4823,7 @@
       [Symbol(errored)]: null,
       [Symbol(kUniqueHeaders)]: null
     },
-    [Symbol(async_id_symbol)]: 2647,
+    [Symbol(async_id_symbol)]: 1247,
     [Symbol(kHandle)]: TCP {
       reading: true,
       onconnection: null,
@@ -4718,7 +4846,7 @@
   _dumped: false,
   next: [Function: next],
   baseUrl: '',
-  originalUrl: '/api/v1//academic-departments/create-deparment',
+  originalUrl: '/api/v1/users/create-user',
   _parsedUrl: Url {
     protocol: null,
     slashes: null,
@@ -4729,10 +4857,10 @@
     hash: null,
     search: null,
     query: null,
-    pathname: '/api/v1//academic-departments/create-deparment',
-    path: '/api/v1//academic-departments/create-deparment',
-    href: '/api/v1//academic-departments/create-deparment',
-    _raw: '/api/v1//academic-departments/create-deparment'
+    pathname: '/api/v1/users/create-user',
+    path: '/api/v1/users/create-user',
+    href: '/api/v1/users/create-user',
+    _raw: '/api/v1/users/create-user'
   },
   params: {},
   query: {},
@@ -5045,12 +5173,12 @@
                               params: undefined,
                               path: undefined,
                               keys: [],
-                              regexp: /^\/create-user\/?$/i {
+                              regexp: /^\/create-student\/?$/i {
                                 fast_star: false,
                                 fast_slash: false
                               },
                               route: Route {
-                                path: '/create-user',
+                                path: '/create-student',
                                 stack: [
                                   Layer {
                                     handle: [Function (anonymous)],
@@ -5083,8 +5211,8 @@
                           ]
                         },
                         name: 'router',
-                        params: undefined,
-                        path: undefined,
+                        params: {},
+                        path: '/users',
                         keys: [],
                         regexp: /^\/users\/?(?=\/|$)/i {
                           fast_star: false,
@@ -5310,8 +5438,8 @@
                             Layer {
                               handle: [Function: bound dispatch],
                               name: 'bound dispatch',
-                              params: {},
-                              path: '/create-faculty',
+                              params: undefined,
+                              path: undefined,
                               keys: [],
                               regexp: /^\/create-faculty\/?$/i {
                                 fast_star: false,
@@ -5558,8 +5686,8 @@
                             Layer {
                               handle: [Function: bound dispatch],
                               name: 'bound dispatch',
-                              params: { id: 'create-deparment' },
-                              path: '/create-deparment',
+                              params: undefined,
+                              path: undefined,
                               keys: [
                                 {
                                   name: 'id',
@@ -5593,8 +5721,8 @@
                             Layer {
                               handle: [Function: bound dispatch],
                               name: 'bound dispatch',
-                              params: { id: 'create-deparment' },
-                              path: '/create-deparment',
+                              params: undefined,
+                              path: undefined,
                               keys: [
                                 {
                                   name: 'id',
@@ -5640,8 +5768,8 @@
                             Layer {
                               handle: [Function: bound dispatch],
                               name: 'bound dispatch',
-                              params: { id: 'create-deparment' },
-                              path: '/create-deparment',
+                              params: undefined,
+                              path: undefined,
                               keys: [
                                 {
                                   name: 'id',
@@ -5704,8 +5832,8 @@
                           ]
                         },
                         name: 'router',
-                        params: {},
-                        path: '/academic-departments',
+                        params: undefined,
+                        path: undefined,
                         keys: [],
                         regexp: /^\/academic-departments\/?(?=\/|$)/i {
                           fast_star: false,
@@ -5717,7 +5845,7 @@
                   },
                   name: 'router',
                   params: {},
-                  path: '/api/v1/',
+                  path: '/api/v1',
                   keys: [],
                   regexp: /^\/api\/v1\/?(?=\/|$)/i {
                     fast_star: false,
@@ -5772,20 +5900,20 @@
         [Symbol(IncomingMessage)]: [Function: IncomingMessage],
         [Symbol(ServerResponse)]: [Function: ServerResponse],
         [Symbol(kCapture)]: false,
-        [Symbol(async_id_symbol)]: 762,
+        [Symbol(async_id_symbol)]: 767,
         [Symbol(http.server.connections)]: ConnectionsList {},
         [Symbol(http.server.connectionsCheckingInterval)]: Timeout {
           _idleTimeout: 30000,
           _idlePrev: [TimersList],
           _idleNext: [TimersList],
-          _idleStart: 2263775,
+          _idleStart: 401322,
           _onTimeout: [Function: bound checkConnections],
           _timerArgs: undefined,
           _repeat: 30000,
           _destroyed: false,
           [Symbol(refed)]: false,
           [Symbol(kHasPrimitive)]: false,
-          [Symbol(asyncId)]: 761,
+          [Symbol(asyncId)]: 766,
           [Symbol(triggerId)]: 0
         },
         [Symbol(kUniqueHeaders)]: null
@@ -5979,12 +6107,12 @@
                               params: undefined,
                               path: undefined,
                               keys: [],
-                              regexp: /^\/create-user\/?$/i {
+                              regexp: /^\/create-student\/?$/i {
                                 fast_star: false,
                                 fast_slash: false
                               },
                               route: Route {
-                                path: '/create-user',
+                                path: '/create-student',
                                 stack: [
                                   Layer {
                                     handle: [Function (anonymous)],
@@ -6017,8 +6145,8 @@
                           ]
                         },
                         name: 'router',
-                        params: undefined,
-                        path: undefined,
+                        params: {},
+                        path: '/users',
                         keys: [],
                         regexp: /^\/users\/?(?=\/|$)/i {
                           fast_star: false,
@@ -6244,8 +6372,8 @@
                             Layer {
                               handle: [Function: bound dispatch],
                               name: 'bound dispatch',
-                              params: {},
-                              path: '/create-faculty',
+                              params: undefined,
+                              path: undefined,
                               keys: [],
                               regexp: /^\/create-faculty\/?$/i {
                                 fast_star: false,
@@ -6492,8 +6620,8 @@
                             Layer {
                               handle: [Function: bound dispatch],
                               name: 'bound dispatch',
-                              params: { id: 'create-deparment' },
-                              path: '/create-deparment',
+                              params: undefined,
+                              path: undefined,
                               keys: [
                                 {
                                   name: 'id',
@@ -6527,8 +6655,8 @@
                             Layer {
                               handle: [Function: bound dispatch],
                               name: 'bound dispatch',
-                              params: { id: 'create-deparment' },
-                              path: '/create-deparment',
+                              params: undefined,
+                              path: undefined,
                               keys: [
                                 {
                                   name: 'id',
@@ -6574,8 +6702,8 @@
                             Layer {
                               handle: [Function: bound dispatch],
                               name: 'bound dispatch',
-                              params: { id: 'create-deparment' },
-                              path: '/create-deparment',
+                              params: undefined,
+                              path: undefined,
                               keys: [
                                 {
                                   name: 'id',
@@ -6638,8 +6766,8 @@
                           ]
                         },
                         name: 'router',
-                        params: {},
-                        path: '/academic-departments',
+                        params: undefined,
+                        path: undefined,
                         keys: [],
                         regexp: /^\/academic-departments\/?(?=\/|$)/i {
                           fast_star: false,
@@ -6651,7 +6779,7 @@
                   },
                   name: 'router',
                   params: {},
-                  path: '/api/v1/',
+                  path: '/api/v1',
                   keys: [],
                   regexp: /^\/api\/v1\/?(?=\/|$)/i {
                     fast_star: false,
@@ -6706,20 +6834,20 @@
         [Symbol(IncomingMessage)]: [Function: IncomingMessage],
         [Symbol(ServerResponse)]: [Function: ServerResponse],
         [Symbol(kCapture)]: false,
-        [Symbol(async_id_symbol)]: 762,
+        [Symbol(async_id_symbol)]: 767,
         [Symbol(http.server.connections)]: ConnectionsList {},
         [Symbol(http.server.connectionsCheckingInterval)]: Timeout {
           _idleTimeout: 30000,
           _idlePrev: [TimersList],
           _idleNext: [TimersList],
-          _idleStart: 2263775,
+          _idleStart: 401322,
           _onTimeout: [Function: bound checkConnections],
           _timerArgs: undefined,
           _repeat: 30000,
           _destroyed: false,
           [Symbol(refed)]: false,
           [Symbol(kHasPrimitive)]: false,
-          [Symbol(asyncId)]: 761,
+          [Symbol(asyncId)]: 766,
           [Symbol(triggerId)]: 0
         },
         [Symbol(kUniqueHeaders)]: null
@@ -6755,10 +6883,10 @@
             errorEmitted: false,
             emitClose: true,
             autoDestroy: true,
-            destroyed: true,
+            destroyed: false,
             errored: null,
-            closed: true,
-            closeEmitted: true,
+            closed: false,
+            closeEmitted: false,
             defaultEncoding: 'utf8',
             awaitDrainWriters: null,
             multiAwaitDrain: false,
@@ -6784,7 +6912,7 @@
             'Accept',
             '*/*',
             'Postman-Token',
-            '26e89c44-471f-4cc0-994d-afe9594f4d4c',
+            'a13475bd-531d-49c3-bc1d-d6c5d0c12dc0',
             'Host',
             'localhost:5000',
             'Accept-Encoding',
@@ -6792,13 +6920,13 @@
             'Connection',
             'keep-alive',
             'Content-Length',
-            '107'
+            '1185'
           ],
           rawTrailers: [],
           joinDuplicateHeaders: undefined,
           aborted: false,
           upgrade: false,
-          url: '/api/v1//academic-departments/create-deparment',
+          url: '/api/v1/users/create-user',
           method: 'POST',
           statusCode: null,
           statusMessage: null,
@@ -6807,7 +6935,7 @@
           _dumped: false,
           next: [Function: next],
           baseUrl: '',
-          originalUrl: '/api/v1//academic-departments/create-deparment',
+          originalUrl: '/api/v1/users/create-user',
           _parsedUrl: Url {
             protocol: null,
             slashes: null,
@@ -6818,17 +6946,49 @@
             hash: null,
             search: null,
             query: null,
-            pathname: '/api/v1//academic-departments/create-deparment',
-            path: '/api/v1//academic-departments/create-deparment',
-            href: '/api/v1//academic-departments/create-deparment',
-            _raw: '/api/v1//academic-departments/create-deparment'
+            pathname: '/api/v1/users/create-user',
+            path: '/api/v1/users/create-user',
+            href: '/api/v1/users/create-user',
+            _raw: '/api/v1/users/create-user'
           },
           params: {},
           query: {},
           res: [Circular *5],
           body: {
-            title: 'Department of Computer Science',
-            academicFaculty: '64bcd550aa517e48691345bf'
+            password: '123456',
+            student: {
+              name: {
+                firstName: 'Mezbaul',
+                lastName: 'Abedin',
+                middleName: 'Forhan'
+              },
+              dateOfBirth: '24-04-1998',
+              gender: 'male',
+              bloodGroup: 'O+',
+              email: 'user@gmail.com',
+              contactNo: 'user_4',
+              emergencyContactNo: '01600000000',
+              presentAddress: 'CTG',
+              permanentAddress: 'CTG',
+              academicFaculty: '64bcd550aa517e48691345bf',
+              academicDepartment: '64bce24f48d2f62e257ce74d',
+              academicSemester: '64b4336248801e3733a2345b',
+              guardian: {
+                fatherName: 'MD.ABBU',
+                fatherOccupation: 'Retired Teacher',
+                fatherContactNo: '01600000000',
+                motherName: 'Mrs.Ammu',
+                motherOccupation: 'Housewife',
+                motherContactNo: '01600000000',
+                address: 'CTG'
+              },
+              localGuardian: {
+                name: 'Zahid Hasan',
+                occupation: 'Service Holder',
+                contactNo: '01600000000',
+                address: 'Dhaka'
+              }
+            }
           },
           _body: true,
           length: undefined,
@@ -6837,11 +6997,11 @@
             'content-type': 'application/json',
             'user-agent': 'PostmanRuntime/7.32.3',
             accept: '*/*',
-            'postman-token': '26e89c44-471f-4cc0-994d-afe9594f4d4c',
+            'postman-token': 'a13475bd-531d-49c3-bc1d-d6c5d0c12dc0',
             host: 'localhost:5000',
             'accept-encoding': 'gzip, deflate, br',
             connection: 'keep-alive',
-            'content-length': '107'
+            'content-length': '1185'
           },
           [Symbol(kHeadersCount)]: 16,
           [Symbol(kTrailers)]: null,
@@ -6862,7 +7022,7 @@
       setEncoding: [Function: socketSetEncoding],
       _paused: false,
       _httpMessage: [Circular *5],
-      [Symbol(async_id_symbol)]: 2647,
+      [Symbol(async_id_symbol)]: 1247,
       [Symbol(kHandle)]: TCP {
         reading: true,
         onconnection: null,
@@ -6904,10 +7064,10 @@
         errorEmitted: false,
         emitClose: true,
         autoDestroy: true,
-        destroyed: true,
+        destroyed: false,
         errored: null,
-        closed: true,
-        closeEmitted: true,
+        closed: false,
+        closeEmitted: false,
         defaultEncoding: 'utf8',
         awaitDrainWriters: null,
         multiAwaitDrain: false,
@@ -7219,12 +7379,12 @@
                                 params: undefined,
                                 path: undefined,
                                 keys: [],
-                                regexp: /^\/create-user\/?$/i {
+                                regexp: /^\/create-student\/?$/i {
                                   fast_star: false,
                                   fast_slash: false
                                 },
                                 route: Route {
-                                  path: '/create-user',
+                                  path: '/create-student',
                                   stack: [
                                     Layer {
                                       handle: [Function (anonymous)],
@@ -7257,8 +7417,8 @@
                             ]
                           },
                           name: 'router',
-                          params: undefined,
-                          path: undefined,
+                          params: {},
+                          path: '/users',
                           keys: [],
                           regexp: /^\/users\/?(?=\/|$)/i {
                             fast_star: false,
@@ -7484,8 +7644,8 @@
                               Layer {
                                 handle: [Function: bound dispatch],
                                 name: 'bound dispatch',
-                                params: {},
-                                path: '/create-faculty',
+                                params: undefined,
+                                path: undefined,
                                 keys: [],
                                 regexp: /^\/create-faculty\/?$/i {
                                   fast_star: false,
@@ -7732,8 +7892,8 @@
                               Layer {
                                 handle: [Function: bound dispatch],
                                 name: 'bound dispatch',
-                                params: { id: 'create-deparment' },
-                                path: '/create-deparment',
+                                params: undefined,
+                                path: undefined,
                                 keys: [
                                   {
                                     name: 'id',
@@ -7767,8 +7927,8 @@
                               Layer {
                                 handle: [Function: bound dispatch],
                                 name: 'bound dispatch',
-                                params: { id: 'create-deparment' },
-                                path: '/create-deparment',
+                                params: undefined,
+                                path: undefined,
                                 keys: [
                                   {
                                     name: 'id',
@@ -7814,8 +7974,8 @@
                               Layer {
                                 handle: [Function: bound dispatch],
                                 name: 'bound dispatch',
-                                params: { id: 'create-deparment' },
-                                path: '/create-deparment',
+                                params: undefined,
+                                path: undefined,
                                 keys: [
                                   {
                                     name: 'id',
@@ -7878,8 +8038,8 @@
                             ]
                           },
                           name: 'router',
-                          params: {},
-                          path: '/academic-departments',
+                          params: undefined,
+                          path: undefined,
                           keys: [],
                           regexp: /^\/academic-departments\/?(?=\/|$)/i {
                             fast_star: false,
@@ -7891,7 +8051,7 @@
                     },
                     name: 'router',
                     params: {},
-                    path: '/api/v1/',
+                    path: '/api/v1',
                     keys: [],
                     regexp: /^\/api\/v1\/?(?=\/|$)/i {
                       fast_star: false,
@@ -7952,20 +8112,20 @@
           [Symbol(IncomingMessage)]: [Function: IncomingMessage],
           [Symbol(ServerResponse)]: [Function: ServerResponse],
           [Symbol(kCapture)]: false,
-          [Symbol(async_id_symbol)]: 762,
+          [Symbol(async_id_symbol)]: 767,
           [Symbol(http.server.connections)]: ConnectionsList {},
           [Symbol(http.server.connectionsCheckingInterval)]: Timeout {
             _idleTimeout: 30000,
             _idlePrev: [TimersList],
             _idleNext: [TimersList],
-            _idleStart: 2263775,
+            _idleStart: 401322,
             _onTimeout: [Function: bound checkConnections],
             _timerArgs: undefined,
             _repeat: 30000,
             _destroyed: false,
             [Symbol(refed)]: false,
             [Symbol(kHasPrimitive)]: false,
-            [Symbol(asyncId)]: 761,
+            [Symbol(asyncId)]: 766,
             [Symbol(triggerId)]: 0
           },
           [Symbol(kUniqueHeaders)]: null
@@ -8174,12 +8334,12 @@
                                 params: undefined,
                                 path: undefined,
                                 keys: [],
-                                regexp: /^\/create-user\/?$/i {
+                                regexp: /^\/create-student\/?$/i {
                                   fast_star: false,
                                   fast_slash: false
                                 },
                                 route: Route {
-                                  path: '/create-user',
+                                  path: '/create-student',
                                   stack: [
                                     Layer {
                                       handle: [Function (anonymous)],
@@ -8212,8 +8372,8 @@
                             ]
                           },
                           name: 'router',
-                          params: undefined,
-                          path: undefined,
+                          params: {},
+                          path: '/users',
                           keys: [],
                           regexp: /^\/users\/?(?=\/|$)/i {
                             fast_star: false,
@@ -8439,8 +8599,8 @@
                               Layer {
                                 handle: [Function: bound dispatch],
                                 name: 'bound dispatch',
-                                params: {},
-                                path: '/create-faculty',
+                                params: undefined,
+                                path: undefined,
                                 keys: [],
                                 regexp: /^\/create-faculty\/?$/i {
                                   fast_star: false,
@@ -8687,8 +8847,8 @@
                               Layer {
                                 handle: [Function: bound dispatch],
                                 name: 'bound dispatch',
-                                params: { id: 'create-deparment' },
-                                path: '/create-deparment',
+                                params: undefined,
+                                path: undefined,
                                 keys: [
                                   {
                                     name: 'id',
@@ -8722,8 +8882,8 @@
                               Layer {
                                 handle: [Function: bound dispatch],
                                 name: 'bound dispatch',
-                                params: { id: 'create-deparment' },
-                                path: '/create-deparment',
+                                params: undefined,
+                                path: undefined,
                                 keys: [
                                   {
                                     name: 'id',
@@ -8769,8 +8929,8 @@
                               Layer {
                                 handle: [Function: bound dispatch],
                                 name: 'bound dispatch',
-                                params: { id: 'create-deparment' },
-                                path: '/create-deparment',
+                                params: undefined,
+                                path: undefined,
                                 keys: [
                                   {
                                     name: 'id',
@@ -8833,8 +8993,8 @@
                             ]
                           },
                           name: 'router',
-                          params: {},
-                          path: '/academic-departments',
+                          params: undefined,
+                          path: undefined,
                           keys: [],
                           regexp: /^\/academic-departments\/?(?=\/|$)/i {
                             fast_star: false,
@@ -8846,7 +9006,7 @@
                     },
                     name: 'router',
                     params: {},
-                    path: '/api/v1/',
+                    path: '/api/v1',
                     keys: [],
                     regexp: /^\/api\/v1\/?(?=\/|$)/i {
                       fast_star: false,
@@ -8907,20 +9067,20 @@
           [Symbol(IncomingMessage)]: [Function: IncomingMessage],
           [Symbol(ServerResponse)]: [Function: ServerResponse],
           [Symbol(kCapture)]: false,
-          [Symbol(async_id_symbol)]: 762,
+          [Symbol(async_id_symbol)]: 767,
           [Symbol(http.server.connections)]: ConnectionsList {},
           [Symbol(http.server.connectionsCheckingInterval)]: Timeout {
             _idleTimeout: 30000,
             _idlePrev: [TimersList],
             _idleNext: [TimersList],
-            _idleStart: 2263775,
+            _idleStart: 401322,
             _onTimeout: [Function: bound checkConnections],
             _timerArgs: undefined,
             _repeat: 30000,
             _destroyed: false,
             [Symbol(refed)]: false,
             [Symbol(kHasPrimitive)]: false,
-            [Symbol(asyncId)]: 761,
+            [Symbol(asyncId)]: 766,
             [Symbol(triggerId)]: 0
           },
           [Symbol(kUniqueHeaders)]: null
@@ -8952,7 +9112,7 @@
         setEncoding: [Function: socketSetEncoding],
         _paused: false,
         _httpMessage: [Circular *5],
-        [Symbol(async_id_symbol)]: 2647,
+        [Symbol(async_id_symbol)]: 1247,
         [Symbol(kHandle)]: TCP {
           reading: true,
           onconnection: null,
@@ -8983,7 +9143,7 @@
         'Accept',
         '*/*',
         'Postman-Token',
-        '26e89c44-471f-4cc0-994d-afe9594f4d4c',
+        'a13475bd-531d-49c3-bc1d-d6c5d0c12dc0',
         'Host',
         'localhost:5000',
         'Accept-Encoding',
@@ -8991,13 +9151,13 @@
         'Connection',
         'keep-alive',
         'Content-Length',
-        '107'
+        '1185'
       ],
       rawTrailers: [],
       joinDuplicateHeaders: undefined,
       aborted: false,
       upgrade: false,
-      url: '/api/v1//academic-departments/create-deparment',
+      url: '/api/v1/users/create-user',
       method: 'POST',
       statusCode: null,
       statusMessage: null,
@@ -9300,12 +9460,12 @@
                                 params: undefined,
                                 path: undefined,
                                 keys: [],
-                                regexp: /^\/create-user\/?$/i {
+                                regexp: /^\/create-student\/?$/i {
                                   fast_star: false,
                                   fast_slash: false
                                 },
                                 route: Route {
-                                  path: '/create-user',
+                                  path: '/create-student',
                                   stack: [
                                     Layer {
                                       handle: [Function (anonymous)],
@@ -9338,8 +9498,8 @@
                             ]
                           },
                           name: 'router',
-                          params: undefined,
-                          path: undefined,
+                          params: {},
+                          path: '/users',
                           keys: [],
                           regexp: /^\/users\/?(?=\/|$)/i {
                             fast_star: false,
@@ -9565,8 +9725,8 @@
                               Layer {
                                 handle: [Function: bound dispatch],
                                 name: 'bound dispatch',
-                                params: {},
-                                path: '/create-faculty',
+                                params: undefined,
+                                path: undefined,
                                 keys: [],
                                 regexp: /^\/create-faculty\/?$/i {
                                   fast_star: false,
@@ -9813,8 +9973,8 @@
                               Layer {
                                 handle: [Function: bound dispatch],
                                 name: 'bound dispatch',
-                                params: { id: 'create-deparment' },
-                                path: '/create-deparment',
+                                params: undefined,
+                                path: undefined,
                                 keys: [
                                   {
                                     name: 'id',
@@ -9848,8 +10008,8 @@
                               Layer {
                                 handle: [Function: bound dispatch],
                                 name: 'bound dispatch',
-                                params: { id: 'create-deparment' },
-                                path: '/create-deparment',
+                                params: undefined,
+                                path: undefined,
                                 keys: [
                                   {
                                     name: 'id',
@@ -9895,8 +10055,8 @@
                               Layer {
                                 handle: [Function: bound dispatch],
                                 name: 'bound dispatch',
-                                params: { id: 'create-deparment' },
-                                path: '/create-deparment',
+                                params: undefined,
+                                path: undefined,
                                 keys: [
                                   {
                                     name: 'id',
@@ -9959,8 +10119,8 @@
                             ]
                           },
                           name: 'router',
-                          params: {},
-                          path: '/academic-departments',
+                          params: undefined,
+                          path: undefined,
                           keys: [],
                           regexp: /^\/academic-departments\/?(?=\/|$)/i {
                             fast_star: false,
@@ -9972,7 +10132,7 @@
                     },
                     name: 'router',
                     params: {},
-                    path: '/api/v1/',
+                    path: '/api/v1',
                     keys: [],
                     regexp: /^\/api\/v1\/?(?=\/|$)/i {
                       fast_star: false,
@@ -10033,20 +10193,20 @@
           [Symbol(IncomingMessage)]: [Function: IncomingMessage],
           [Symbol(ServerResponse)]: [Function: ServerResponse],
           [Symbol(kCapture)]: false,
-          [Symbol(async_id_symbol)]: 762,
+          [Symbol(async_id_symbol)]: 767,
           [Symbol(http.server.connections)]: ConnectionsList {},
           [Symbol(http.server.connectionsCheckingInterval)]: Timeout {
             _idleTimeout: 30000,
             _idlePrev: [TimersList],
             _idleNext: [TimersList],
-            _idleStart: 2263775,
+            _idleStart: 401322,
             _onTimeout: [Function: bound checkConnections],
             _timerArgs: undefined,
             _repeat: 30000,
             _destroyed: false,
             [Symbol(refed)]: false,
             [Symbol(kHasPrimitive)]: false,
-            [Symbol(asyncId)]: 761,
+            [Symbol(asyncId)]: 766,
             [Symbol(triggerId)]: 0
           },
           [Symbol(kUniqueHeaders)]: null
@@ -10255,12 +10415,12 @@
                                 params: undefined,
                                 path: undefined,
                                 keys: [],
-                                regexp: /^\/create-user\/?$/i {
+                                regexp: /^\/create-student\/?$/i {
                                   fast_star: false,
                                   fast_slash: false
                                 },
                                 route: Route {
-                                  path: '/create-user',
+                                  path: '/create-student',
                                   stack: [
                                     Layer {
                                       handle: [Function (anonymous)],
@@ -10293,8 +10453,8 @@
                             ]
                           },
                           name: 'router',
-                          params: undefined,
-                          path: undefined,
+                          params: {},
+                          path: '/users',
                           keys: [],
                           regexp: /^\/users\/?(?=\/|$)/i {
                             fast_star: false,
@@ -10520,8 +10680,8 @@
                               Layer {
                                 handle: [Function: bound dispatch],
                                 name: 'bound dispatch',
-                                params: {},
-                                path: '/create-faculty',
+                                params: undefined,
+                                path: undefined,
                                 keys: [],
                                 regexp: /^\/create-faculty\/?$/i {
                                   fast_star: false,
@@ -10768,8 +10928,8 @@
                               Layer {
                                 handle: [Function: bound dispatch],
                                 name: 'bound dispatch',
-                                params: { id: 'create-deparment' },
-                                path: '/create-deparment',
+                                params: undefined,
+                                path: undefined,
                                 keys: [
                                   {
                                     name: 'id',
@@ -10803,8 +10963,8 @@
                               Layer {
                                 handle: [Function: bound dispatch],
                                 name: 'bound dispatch',
-                                params: { id: 'create-deparment' },
-                                path: '/create-deparment',
+                                params: undefined,
+                                path: undefined,
                                 keys: [
                                   {
                                     name: 'id',
@@ -10850,8 +11010,8 @@
                               Layer {
                                 handle: [Function: bound dispatch],
                                 name: 'bound dispatch',
-                                params: { id: 'create-deparment' },
-                                path: '/create-deparment',
+                                params: undefined,
+                                path: undefined,
                                 keys: [
                                   {
                                     name: 'id',
@@ -10914,8 +11074,8 @@
                             ]
                           },
                           name: 'router',
-                          params: {},
-                          path: '/academic-departments',
+                          params: undefined,
+                          path: undefined,
                           keys: [],
                           regexp: /^\/academic-departments\/?(?=\/|$)/i {
                             fast_star: false,
@@ -10927,7 +11087,7 @@
                     },
                     name: 'router',
                     params: {},
-                    path: '/api/v1/',
+                    path: '/api/v1',
                     keys: [],
                     regexp: /^\/api\/v1\/?(?=\/|$)/i {
                       fast_star: false,
@@ -10988,20 +11148,20 @@
           [Symbol(IncomingMessage)]: [Function: IncomingMessage],
           [Symbol(ServerResponse)]: [Function: ServerResponse],
           [Symbol(kCapture)]: false,
-          [Symbol(async_id_symbol)]: 762,
+          [Symbol(async_id_symbol)]: 767,
           [Symbol(http.server.connections)]: ConnectionsList {},
           [Symbol(http.server.connectionsCheckingInterval)]: Timeout {
             _idleTimeout: 30000,
             _idlePrev: [TimersList],
             _idleNext: [TimersList],
-            _idleStart: 2263775,
+            _idleStart: 401322,
             _onTimeout: [Function: bound checkConnections],
             _timerArgs: undefined,
             _repeat: 30000,
             _destroyed: false,
             [Symbol(refed)]: false,
             [Symbol(kHasPrimitive)]: false,
-            [Symbol(asyncId)]: 761,
+            [Symbol(asyncId)]: 766,
             [Symbol(triggerId)]: 0
           },
           [Symbol(kUniqueHeaders)]: null
@@ -11033,7 +11193,7 @@
         setEncoding: [Function: socketSetEncoding],
         _paused: false,
         _httpMessage: [Circular *5],
-        [Symbol(async_id_symbol)]: 2647,
+        [Symbol(async_id_symbol)]: 1247,
         [Symbol(kHandle)]: TCP {
           reading: true,
           onconnection: null,
@@ -11056,7 +11216,7 @@
       _dumped: false,
       next: [Function: next],
       baseUrl: '',
-      originalUrl: '/api/v1//academic-departments/create-deparment',
+      originalUrl: '/api/v1/users/create-user',
       _parsedUrl: Url {
         protocol: null,
         slashes: null,
@@ -11067,17 +11227,49 @@
         hash: null,
         search: null,
         query: null,
-        pathname: '/api/v1//academic-departments/create-deparment',
-        path: '/api/v1//academic-departments/create-deparment',
-        href: '/api/v1//academic-departments/create-deparment',
-        _raw: '/api/v1//academic-departments/create-deparment'
+        pathname: '/api/v1/users/create-user',
+        path: '/api/v1/users/create-user',
+        href: '/api/v1/users/create-user',
+        _raw: '/api/v1/users/create-user'
       },
       params: {},
       query: {},
       res: [Circular *5],
       body: {
-        title: 'Department of Computer Science',
-        academicFaculty: '64bcd550aa517e48691345bf'
+        password: '123456',
+        student: {
+          name: {
+            firstName: 'Mezbaul',
+            lastName: 'Abedin',
+            middleName: 'Forhan'
+          },
+          dateOfBirth: '24-04-1998',
+          gender: 'male',
+          bloodGroup: 'O+',
+          email: 'user@gmail.com',
+          contactNo: 'user_4',
+          emergencyContactNo: '01600000000',
+          presentAddress: 'CTG',
+          permanentAddress: 'CTG',
+          academicFaculty: '64bcd550aa517e48691345bf',
+          academicDepartment: '64bce24f48d2f62e257ce74d',
+          academicSemester: '64b4336248801e3733a2345b',
+          guardian: {
+            fatherName: 'MD.ABBU',
+            fatherOccupation: 'Retired Teacher',
+            fatherContactNo: '01600000000',
+            motherName: 'Mrs.Ammu',
+            motherOccupation: 'Housewife',
+            motherContactNo: '01600000000',
+            address: 'CTG'
+          },
+          localGuardian: {
+            name: 'Zahid Hasan',
+            occupation: 'Service Holder',
+            contactNo: '01600000000',
+            address: 'Dhaka'
+          }
+        }
       },
       _body: true,
       length: undefined,
@@ -11086,11 +11278,11 @@
         'content-type': 'application/json',
         'user-agent': 'PostmanRuntime/7.32.3',
         accept: '*/*',
-        'postman-token': '26e89c44-471f-4cc0-994d-afe9594f4d4c',
+        'postman-token': 'a13475bd-531d-49c3-bc1d-d6c5d0c12dc0',
         host: 'localhost:5000',
         'accept-encoding': 'gzip, deflate, br',
         connection: 'keep-alive',
-        'content-length': '107'
+        'content-length': '1185'
       },
       [Symbol(kHeadersCount)]: 16,
       [Symbol(kTrailers)]: null,
@@ -11113,25 +11305,57 @@
     [Symbol(kUniqueHeaders)]: null
   },
   body: {
-    title: 'Department of Computer Science',
-    academicFaculty: '64bcd550aa517e48691345bf'
+    password: '123456',
+    student: {
+      name: {
+        firstName: 'Mezbaul',
+        lastName: 'Abedin',
+        middleName: 'Forhan'
+      },
+      dateOfBirth: '24-04-1998',
+      gender: 'male',
+      bloodGroup: 'O+',
+      email: 'user@gmail.com',
+      contactNo: 'user_4',
+      emergencyContactNo: '01600000000',
+      presentAddress: 'CTG',
+      permanentAddress: 'CTG',
+      academicFaculty: '64bcd550aa517e48691345bf',
+      academicDepartment: '64bce24f48d2f62e257ce74d',
+      academicSemester: '64b4336248801e3733a2345b',
+      guardian: {
+        fatherName: 'MD.ABBU',
+        fatherOccupation: 'Retired Teacher',
+        fatherContactNo: '01600000000',
+        motherName: 'Mrs.Ammu',
+        motherOccupation: 'Housewife',
+        motherContactNo: '01600000000',
+        address: 'CTG'
+      },
+      localGuardian: {
+        name: 'Zahid Hasan',
+        occupation: 'Service Holder',
+        contactNo: '01600000000',
+        address: 'Dhaka'
+      }
+    }
   },
   _body: true,
   length: undefined,
   level: 'error',
   message: 'globalErrorHandler',
   label: 'PH',
-  timestamp: '2023-07-23T07:59:42.713Z',
+  timestamp: '2023-07-25T10:22:29.505Z',
   [Symbol(kCapture)]: false,
   [Symbol(kHeaders)]: {
     'content-type': 'application/json',
     'user-agent': 'PostmanRuntime/7.32.3',
     accept: '*/*',
-    'postman-token': '26e89c44-471f-4cc0-994d-afe9594f4d4c',
+    'postman-token': 'a13475bd-531d-49c3-bc1d-d6c5d0c12dc0',
     host: 'localhost:5000',
     'accept-encoding': 'gzip, deflate, br',
     connection: 'keep-alive',
-    'content-length': '107'
+    'content-length': '1185'
   },
   [Symbol(kHeadersCount)]: 16,
   [Symbol(kTrailers)]: null,
