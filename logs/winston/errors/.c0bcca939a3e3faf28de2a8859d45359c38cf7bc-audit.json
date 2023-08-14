@@ -6,9 +6,14 @@
     "auditLog": "E:\\Level-2.0\\Class\\university-management\\logs\\winston\\errors\\.c0bcca939a3e3faf28de2a8859d45359c38cf7bc-audit.json",
     "files": [
         {
-            "date": 1691906740974,
-            "name": "E:\\Level-2.0\\Class\\university-management\\logs\\winston\\errors\\ph-2023-08-13-12-error.log",
-            "hash": "4ce0aa7ebb59768b6ec0a60da573fb69b50cc60a0606cf930e7965545cfc907c"
+            "date": 1692004902516,
+            "name": "E:\\Level-2.0\\Class\\university-management\\logs\\winston\\errors\\ph-2023-08-14-15-error.log",
+            "hash": "333588ca8ffbebfe43b3e8a098e05ad7806d92d4cb83541cf2092c8dcdfc82ae"
+        },
+        {
+            "date": 1692014666778,
+            "name": "E:\\Level-2.0\\Class\\university-management\\logs\\winston\\errors\\ph-2023-08-14-18-error.log",
+            "hash": "1b220699078b94023cf13df406b73c08866b34710020df1213a1114d2d764e6b"
         }
     ],
     "hashType": "sha256"
