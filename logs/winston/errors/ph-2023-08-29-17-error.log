@@ -1,0 +1,24 @@
+{
+  cause: Error: connect ETIMEDOUT 34.226.182.162:27017
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {
+    errno: -4039,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '34.226.182.162',
+    port: 27017
+  },
+  connectionGeneration: 0,
+  level: 'error',
+  message: 'failed to database connect connect ETIMEDOUT 34.226.182.162:27017',
+  stack: 'MongoNetworkError: connect ETIMEDOUT 34.226.182.162:27017\n' +
+    '    at connectionFailureError (E:\\Level-2.0\\Class\\university-management\\node_modules\\mongodb\\src\\cmap\\connect.ts:491:14)\n' +
+    '    at TLSSocket.<anonymous> (E:\\Level-2.0\\Class\\university-management\\node_modules\\mongodb\\src\\cmap\\connect.ts:392:16)\n' +
+    '    at Object.onceWrapper (node:events:628:26)\n' +
+    '    at TLSSocket.emit (node:events:513:28)\n' +
+    '    at emitErrorNT (node:internal/streams/destroy:151:8)\n' +
+    '    at emitErrorCloseNT (node:internal/streams/destroy:116:3)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:82:21)',
+  label: 'PH',
+  timestamp: '2023-08-29T11:58:13.469Z',
+  [Symbol(errorLabels)]: Set(1) { 'ResetPool' }
+}

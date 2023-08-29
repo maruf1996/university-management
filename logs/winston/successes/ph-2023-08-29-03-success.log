@@ -2,23 +2,23 @@
   message: 'database is connected successfully',
   level: 'info',
   label: 'PH',
-  timestamp: '2023-08-14T12:04:36.944Z'
+  timestamp: '2023-08-28T21:41:13.218Z'
 }
 {
   message: 'Example app listening on port 5000',
   level: 'info',
   label: 'PH',
-  timestamp: '2023-08-14T12:04:36.971Z'
+  timestamp: '2023-08-28T21:41:13.275Z'
 }
 {
   message: 'database is connected successfully',
   level: 'info',
   label: 'PH',
-  timestamp: '2023-08-14T12:06:48.017Z'
+  timestamp: '2023-08-28T21:57:53.199Z'
 }
 {
   message: 'Example app listening on port 5000',
   level: 'info',
   label: 'PH',
-  timestamp: '2023-08-14T12:06:48.036Z'
+  timestamp: '2023-08-28T21:57:53.216Z'
 }
