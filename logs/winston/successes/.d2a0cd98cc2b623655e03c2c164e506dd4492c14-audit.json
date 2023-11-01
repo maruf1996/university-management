@@ -1,25 +1,25 @@
 {
-    "keep": {
-        "days": true,
-        "amount": 1
+  "keep": {
+    "days": true,
+    "amount": 1
+  },
+  "auditLog": "E:\\Level-2.0\\Class\\university-management\\logs\\winston\\successes\\.d2a0cd98cc2b623655e03c2c164e506dd4492c14-audit.json",
+  "files": [
+    {
+      "date": 1693526106214,
+      "name": "E:\\Level-2.0\\Class\\university-management\\logs\\winston\\successes\\ph-2023-09-01-05-success.log",
+      "hash": "d413ef90494904da9687724067894c0e16cf303d75e8f4f92c87927b0a0bde58"
     },
-    "auditLog": "E:\\Level-2.0\\Class\\university-management\\logs\\winston\\successes\\.d2a0cd98cc2b623655e03c2c164e506dd4492c14-audit.json",
-    "files": [
-        {
-            "date": 1693526106214,
-            "name": "E:\\Level-2.0\\Class\\university-management\\logs\\winston\\successes\\ph-2023-09-01-05-success.log",
-            "hash": "d413ef90494904da9687724067894c0e16cf303d75e8f4f92c87927b0a0bde58"
-        },
-        {
-            "date": 1693526669951,
-            "name": "E:\\Level-2.0\\Class\\university-management\\logs\\winston\\successes\\ph-2023-09-01-06-success.log",
-            "hash": "3d3d224230c26df5810b73a41bba121d842006742826b2f28821be150d53ab33"
-        },
-        {
-            "date": 1693530003286,
-            "name": "E:\\Level-2.0\\Class\\university-management\\logs\\winston\\successes\\ph-2023-09-01-07-success.log",
-            "hash": "33004c5d4b6865d0c7b8dde354e36c2a1402987466ecfaa3c0ddd50fafe01295"
-        }
-    ],
-    "hashType": "sha256"
+    {
+      "date": 1693526669951,
+      "name": "E:\\Level-2.0\\Class\\university-management\\logs\\winston\\successes\\ph-2023-09-01-06-success.log",
+      "hash": "3d3d224230c26df5810b73a41bba121d842006742826b2f28821be150d53ab33"
+    },
+    {
+      "date": 1693530003286,
+      "name": "E:\\Level-2.0\\Class\\university-management\\logs\\winston\\successes\\ph-2023-09-01-07-success.log",
+      "hash": "33004c5d4b6865d0c7b8dde354e36c2a1402987466ecfaa3c0ddd50fafe01295"
+    }
+  ],
+  "hashType": "sha256"
 }
